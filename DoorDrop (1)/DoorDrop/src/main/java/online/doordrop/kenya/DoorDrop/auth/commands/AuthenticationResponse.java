@@ -1,4 +1,4 @@
-package online.doordrop.kenya.DoorDrop.auth;
+package online.doordrop.kenya.DoorDrop.auth.commands;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,11 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class AuthenticationRequest {
+public class AuthenticationResponse {
+    private String token;
+    private String loginUID;
+    private Double credits;
     private String email;
-    private String password;
+
+
 }

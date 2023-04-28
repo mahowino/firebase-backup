@@ -1,4 +1,4 @@
-package online.doordrop.kenya.DoorDrop.firebaseUser.constants;
+package online.doordrop.kenya.DoorDrop.auth.firebaseUser.constants;
 
 abstract public class UserConstants {
 

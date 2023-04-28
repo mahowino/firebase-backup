@@ -1,4 +1,4 @@
-package online.doordrop.kenya.DoorDrop.firebaseUser;
+package online.doordrop.kenya.DoorDrop.auth.firebaseUser;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

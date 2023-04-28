@@ -1,13 +1,13 @@
-package online.doordrop.kenya.DoorDrop.auth;
+package online.doordrop.kenya.DoorDrop.auth.commands;
 
 import com.google.firebase.auth.FirebaseAuthException;
 
 import lombok.RequiredArgsConstructor;
 import online.doordrop.kenya.DoorDrop.config.JWTService;
-import online.doordrop.kenya.DoorDrop.firebaseUser.FirebaseUserService;
-import online.doordrop.kenya.DoorDrop.user.Role;
-import online.doordrop.kenya.DoorDrop.user.User;
-import online.doordrop.kenya.DoorDrop.user.UserRepository;
+import online.doordrop.kenya.DoorDrop.auth.firebaseUser.FirebaseUserService;
+import online.doordrop.kenya.DoorDrop.auth.user.Role;
+import online.doordrop.kenya.DoorDrop.auth.user.User;
+import online.doordrop.kenya.DoorDrop.auth.user.UserRepository;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;

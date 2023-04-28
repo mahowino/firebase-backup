@@ -1,4 +1,4 @@
-package online.doordrop.kenya.DoorDrop.auth;
+package online.doordrop.kenya.DoorDrop.auth.commands;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

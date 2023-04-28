@@ -1,4 +1,4 @@
-package online.doordrop.kenya.DoorDrop.firebaseUser;
+package online.doordrop.kenya.DoorDrop.auth.firebaseUser;
 
 
 import com.google.api.core.ApiFuture;
@@ -8,7 +8,7 @@ import com.google.firebase.auth.FirebaseAuthException;
 import com.google.firebase.auth.UserRecord;
 import com.google.firebase.cloud.FirestoreClient;
 
-import online.doordrop.kenya.DoorDrop.firebaseUser.constants.UserConstants;
+import online.doordrop.kenya.DoorDrop.auth.firebaseUser.constants.UserConstants;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;

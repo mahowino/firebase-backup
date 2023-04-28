@@ -1,4 +1,4 @@
-package online.doordrop.kenya.DoorDrop.user;
+package online.doordrop.kenya.DoorDrop.auth.user;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package online.doordrop.kenya.DoorDrop.user;
+package online.doordrop.kenya.DoorDrop.auth.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

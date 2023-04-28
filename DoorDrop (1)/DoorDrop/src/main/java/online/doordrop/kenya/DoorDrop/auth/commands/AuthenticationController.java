@@ -1,4 +1,4 @@
-package online.doordrop.kenya.DoorDrop.auth;
+package online.doordrop.kenya.DoorDrop.auth.commands;
 
 import com.google.firebase.auth.FirebaseAuthException;
 import lombok.RequiredArgsConstructor;

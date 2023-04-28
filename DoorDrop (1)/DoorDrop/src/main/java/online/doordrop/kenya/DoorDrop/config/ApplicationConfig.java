@@ -2,7 +2,7 @@ package online.doordrop.kenya.DoorDrop.config;
 
 
 import lombok.RequiredArgsConstructor;
-import online.doordrop.kenya.DoorDrop.user.UserRepository;
+import online.doordrop.kenya.DoorDrop.auth.user.UserRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
