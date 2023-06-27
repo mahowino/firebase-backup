@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 public class AuthenticationResponse {
     private String token;
     private String loginUID;
-    private Double credits;
+
     private String email;
 
 

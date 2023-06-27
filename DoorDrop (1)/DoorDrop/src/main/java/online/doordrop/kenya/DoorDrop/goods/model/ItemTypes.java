@@ -1,16 +1,18 @@
-package online.doordrop.kenya.DoorDrop.store;
+package online.doordrop.kenya.DoorDrop.goods.model;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-@Data
+@Entity
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
 @Table
-@ToString
-public class Store {
+@Data
+public class ItemTypes {
     @Id
     @SequenceGenerator(
             name = "good_sequence",
@@ -21,7 +23,9 @@ public class Store {
             strategy = GenerationType.SEQUENCE,
             generator = "good_sequence"
     )
-    long storeId;
-    String storeName,storeUrl;
-    double storeDeliveryCost;
+    long itemTypesId;
+    String name;
+    String description;
+
+
 }
